@@ -16,4 +16,4 @@ Then visit `http://localhost:8000`.
 
 Push this folder to a GitHub repository and enable GitHub Pages from the repository's Pages settings, using the default branch and root folder.
 
-Before publishing, replace the placeholder support and privacy email addresses if Attendly uses different contact details.
+The support, privacy, and deletion contact is `appgenieteam@gmail.com`.
