@@ -1,0 +1,602 @@
+[
+  {
+    "slug": "calculate-attendance-percentage",
+    "title": "How to Calculate Your Attendance Percentage",
+    "description": "Learn the simple attendance percentage formula, see a worked example, and understand what your result means for the semester.",
+    "keyword": "how to calculate attendance percentage",
+    "category": "Calculations",
+    "alt": "Student checking attendance percentage on a notebook beside a phone dashboard",
+    "answer": "Attendance percentage is calculated by dividing the classes or hours you attended by the total classes or hours held, then multiplying by 100.",
+    "sections": [
+      {
+        "heading": "The attendance percentage formula",
+        "paragraphs": [
+          "Use this formula: (classes attended ÷ classes held) × 100. If you track hours instead of class meetings, use present hours and conducted hours consistently.",
+          "For example, 42 attended classes out of 50 held gives (42 ÷ 50) × 100 = 84%. Keep the denominator tied to what your institution records."
+        ]
+      },
+      {
+        "heading": "Why the number can change quickly",
+        "paragraphs": [
+          "One missed class has a bigger effect early in a semester because fewer classes have been counted. Later, each single class usually changes the percentage less.",
+          "Track each subject separately when your institution calculates eligibility per course. Attendly helps you keep the inputs visible instead of rebuilding the calculation from memory."
+        ]
+      }
+    ],
+    "related": [
+      "attendance-calculator-classes-can-miss",
+      "track-attendance-by-subject",
+      "attendance-percentage-actually-works"
+    ]
+  },
+  {
+    "slug": "attendance-calculator-classes-can-miss",
+    "title": "How Many Classes Can I Miss and Still Stay Above 75%?",
+    "description": "Use the attendance formula to estimate how many future classes you can miss while staying above a 75% target.",
+    "keyword": "how many classes can I miss and still have 75 attendance",
+    "category": "Calculations",
+    "alt": "Calendar with several class days highlighted while a student plans attendance",
+    "answer": "The answer depends on your attended total, classes already held, remaining schedule, and your institution’s required percentage.",
+    "sections": [
+      {
+        "heading": "Start with your current totals",
+        "paragraphs": [
+          "Let A be classes attended and H be classes held. To stay at or above a target T, future misses m must satisfy A ÷ (H + m) ≥ T.",
+          "At 75%, a student with 60 attended out of 80 held is exactly on target. Another absence would lower the result, so the safe estimate is zero additional misses unless future attended classes rebuild the buffer."
+        ]
+      },
+      {
+        "heading": "Treat the result as a planning estimate",
+        "paragraphs": [
+          "The calculation is only as reliable as the totals and policy you enter. Labs, tutorials, approved leave, and subject-level rules may be counted differently.",
+          "Use Attendly to record the actual class, then confirm any absence decision against your official attendance policy."
+        ]
+      }
+    ],
+    "related": [
+      "calculate-attendance-percentage",
+      "reach-75-attendance",
+      "plan-absences-attendance"
+    ]
+  },
+  {
+    "slug": "attendance-shortage-what-to-do",
+    "title": "Attendance Shortage: What It Means and What to Do Next",
+    "description": "Understand attendance shortage, check the rules that apply to you, and make a practical recovery plan without panic.",
+    "keyword": "attendance shortage what to do",
+    "category": "Recovery",
+    "alt": "Student reviewing a low attendance warning and writing a recovery plan",
+    "answer": "Attendance shortage means your recorded attendance is below the minimum set by your school or institution for a course or term.",
+    "sections": [
+      {
+        "heading": "Check the exact rule first",
+        "paragraphs": [
+          "There is no universal shortage threshold. Some institutions calculate attendance by subject, some include labs separately, and some allow approved exceptions.",
+          "Find the official rule, confirm the reporting period, and ask your department whether corrected records or approved leave can change your total."
+        ]
+      },
+      {
+        "heading": "Make the next step measurable",
+        "paragraphs": [
+          "Calculate your current percentage, count the remaining scheduled classes, and identify how many future classes you must attend to reach your target.",
+          "A simple record of every class makes the conversation easier if your official portal and your own notes disagree. Keep copies of relevant approvals and communicate early."
+        ]
+      }
+    ],
+    "related": [
+      "reach-75-attendance",
+      "attendance-below-requirement",
+      "recover-bad-attendance-week"
+    ]
+  },
+  {
+    "slug": "college-attendance-percentage-required",
+    "title": "What Attendance Percentage Do You Need for College?",
+    "description": "A practical guide to attendance requirements, why they vary, and how to find the rule that applies to your course.",
+    "keyword": "what attendance percentage is required in college",
+    "category": "Policy & Planning",
+    "alt": "College student reading a course handbook beside a semester planner",
+    "answer": "The required attendance percentage depends on your college, course, country, and department. There is no single rule that applies everywhere.",
+    "sections": [
+      {
+        "heading": "Why percentages differ",
+        "paragraphs": [
+          "Institutions may set different minimums for lectures, labs, clinical sessions, or professional programs. Some also describe approved leave or condonation separately.",
+          "A number you see online can be a useful example, but it should never replace your handbook, student portal, or department guidance."
+        ]
+      },
+      {
+        "heading": "Build a safe personal target",
+        "paragraphs": [
+          "Once you know the official minimum, choose a buffer above it. A target with room for illness, travel, and unexpected events is easier to manage than aiming at the exact minimum.",
+          "Track by subject and review weekly so a small dip is visible while you still have time to respond."
+        ]
+      }
+    ],
+    "related": [
+      "attendance-shortage-what-to-do",
+      "attendance-goals-safe-target",
+      "weekly-attendance-routine"
+    ]
+  },
+  {
+    "slug": "improve-class-attendance-without-burning-out",
+    "title": "How to Improve Your Attendance Without Burning Out",
+    "description": "Practical, sustainable ways to improve class attendance while protecting energy, sleep, and study time.",
+    "keyword": "how to improve class attendance",
+    "category": "Habits",
+    "alt": "Student preparing a backpack and weekly class plan for better attendance",
+    "answer": "The most sustainable attendance improvement comes from reducing friction: plan transport, protect sleep, prepare materials, and review your schedule before the week starts.",
+    "sections": [
+      {
+        "heading": "Fix the friction around class",
+        "paragraphs": [
+          "Notice the repeatable reason behind missed classes. Is it a late commute, an unclear timetable, a missing alarm, or a class that feels difficult to enter after falling behind? Solve that specific obstacle first.",
+          "Pack what you need the night before, add realistic travel time, and keep a simple weekly view of your classes."
+        ]
+      },
+      {
+        "heading": "Use small feedback loops",
+        "paragraphs": [
+          "Record attendance soon after each class and look for patterns without judging yourself. A visible streak can encourage consistency, but recovery after a missed class matters more than perfection.",
+          "If attendance is affected by health, work, or access needs, speak with the appropriate support service early."
+        ]
+      }
+    ],
+    "related": [
+      "weekly-attendance-routine",
+      "attendance-streaks-consistency",
+      "recover-bad-attendance-week"
+    ]
+  },
+  {
+    "slug": "track-attendance-by-subject",
+    "title": "The Easiest Way to Track Attendance by Subject",
+    "description": "Learn why subject-level tracking is clearer than one overall number and how to build a simple subject attendance routine.",
+    "keyword": "track attendance by subject",
+    "category": "Tracking",
+    "alt": "Color-coded subject cards showing attendance percentages on a student planner",
+    "answer": "Track each subject with its own classes held, classes attended, target, and recent trend. An overall average can hide a subject that needs attention.",
+    "sections": [
+      {
+        "heading": "Use one small record per subject",
+        "paragraphs": [
+          "For every subject, keep the class date, status, and hours or sessions. Add the target percentage that applies to that subject if it differs from your general target.",
+          "This makes it easier to see whether a low overall number comes from one course, a lab schedule, or a pattern across the whole week."
+        ]
+      },
+      {
+        "heading": "Review the exceptions first",
+        "paragraphs": [
+          "Sort your attention toward subjects close to the minimum, not only the ones with the lowest number. A course with fewer remaining classes may need action sooner.",
+          "Attendly’s subject summaries are designed to keep this comparison readable at a glance."
+        ]
+      }
+    ],
+    "related": [
+      "calculate-attendance-percentage",
+      "semester-attendance-tracker",
+      "attendance-tracking-mistakes"
+    ]
+  },
+  {
+    "slug": "attendance-calculator-current-needed-can-miss",
+    "title": "Attendance Calculator: Current Percentage, Classes Needed, and Classes You Can Miss",
+    "description": "Understand the three attendance numbers students usually need: current percentage, classes needed to recover, and future classes they can miss.",
+    "keyword": "attendance calculator classes needed can miss",
+    "category": "Calculations",
+    "alt": "Calculator, class timetable, and attendance figures arranged on a desk",
+    "answer": "A useful attendance calculator should show your current percentage, the classes you need to attend to reach your target, and the classes you can miss without falling below it.",
+    "sections": [
+      {
+        "heading": "The three numbers to calculate",
+        "paragraphs": [
+          "Current percentage is attended divided by held. Classes needed to reach a target solve for the smallest future attendance streak that brings you up. Classes you can miss solve for the largest future absence that keeps you above the target.",
+          "Each result depends on accurate subject totals and the number of classes still scheduled."
+        ]
+      },
+      {
+        "heading": "Do not confuse estimates with permission",
+        "paragraphs": [
+          "A calculator cannot know whether your institution counts late arrivals, approved leave, labs, or makeup sessions differently. It only works with the assumptions you enter.",
+          "Use the result to ask a better question of your official policy or advisor, not to override it."
+        ]
+      }
+    ],
+    "related": [
+      "calculate-attendance-percentage",
+      "attendance-calculator-classes-can-miss",
+      "reach-75-attendance"
+    ]
+  },
+  {
+    "slug": "reach-75-attendance",
+    "title": "How Many Classes Do I Need to Attend to Reach 75%?",
+    "description": "Learn how to calculate the minimum future attendance streak needed to move from your current percentage to a 75% target.",
+    "keyword": "how many classes need to attend to reach 75 attendance",
+    "category": "Recovery",
+    "alt": "Student counting future classes on a calendar to reach an attendance goal",
+    "answer": "Solve A + n divided by H + n ≥ 0.75, where A is classes attended, H is classes held, and n is future classes you attend.",
+    "sections": [
+      {
+        "heading": "The recovery calculation",
+        "paragraphs": [
+          "For a 75% target, solve (A + n) ÷ (H + n) ≥ 0.75. Round n up to the next whole class because you cannot attend part of a class.",
+          "Example: with 54 attended out of 80 held, you need enough future attended classes to make the new ratio at least 75%. A calculator can do the arithmetic, while your timetable tells you whether the recovery is realistic."
+        ]
+      },
+      {
+        "heading": "Protect the recovery streak",
+        "paragraphs": [
+          "Once you know the required number, mark those classes in your schedule and remove avoidable conflicts. Recheck after each week because one absence changes the remaining path.",
+          "Confirm the target and counting method with your institution before relying on the estimate."
+        ]
+      }
+    ],
+    "related": [
+      "attendance-shortage-what-to-do",
+      "attendance-calculator-current-needed-can-miss",
+      "plan-absences-attendance"
+    ]
+  },
+  {
+    "slug": "attendance-percentage-actually-works",
+    "title": "Present vs. Absent: How Attendance Percentages Actually Work",
+    "description": "See how present and absent records become an attendance percentage, including why hours and sessions should not be mixed.",
+    "keyword": "present absent attendance percentage formula",
+    "category": "Calculations",
+    "alt": "Split illustration showing present and absent class records becoming a percentage",
+    "answer": "Attendance percentage is the attended portion of the total conducted amount: present sessions or hours divided by present plus absent sessions or hours.",
+    "sections": [
+      {
+        "heading": "Keep the unit consistent",
+        "paragraphs": [
+          "If your institution records hours, calculate with hours. If it records sessions, calculate with sessions. Mixing one two-hour lab with one lecture session can distort the result.",
+          "The total conducted amount is usually present plus absent, but confirm how cancelled, excused, or rescheduled classes are handled."
+        ]
+      },
+      {
+        "heading": "Use the history to find patterns",
+        "paragraphs": [
+          "A percentage tells you where you are; the record shows why. Look for days, subjects, or time slots where absences repeat.",
+          "A short note beside a record can help you distinguish a one-off event from a scheduling problem."
+        ]
+      }
+    ],
+    "related": [
+      "calculate-attendance-percentage",
+      "track-attendance-by-subject",
+      "attendance-tracking-mistakes"
+    ]
+  },
+  {
+    "slug": "semester-attendance-tracker",
+    "title": "How to Track Attendance Across a Full Semester",
+    "description": "Build a semester-long attendance tracking habit with subject records, weekly reviews, and a simple target buffer.",
+    "keyword": "semester attendance tracker",
+    "category": "Tracking",
+    "alt": "Semester calendar with subject attendance checkpoints and progress marks",
+    "answer": "A semester tracker works best when it records each class close to the time it happens and gives you a weekly summary by subject.",
+    "sections": [
+      {
+        "heading": "Set up before the first week",
+        "paragraphs": [
+          "List each subject, its schedule, target, and whether it uses sessions or hours. Start with a clean baseline so the first percentage is meaningful.",
+          "If your timetable changes, update the schedule rather than trying to remember the change later."
+        ]
+      },
+      {
+        "heading": "Review once a week",
+        "paragraphs": [
+          "A five-minute weekly review is enough to spot a subject trending toward the minimum. Compare current attendance with the number of classes left, not just the semester average.",
+          "Attendly keeps semester records and subject summaries together so the review can stay small."
+        ]
+      }
+    ],
+    "related": [
+      "track-attendance-by-subject",
+      "weekly-attendance-routine",
+      "attendance-goals-safe-target"
+    ]
+  },
+  {
+    "slug": "attendance-below-requirement",
+    "title": "What Happens When Your Attendance Falls Below the Requirement?",
+    "description": "What to check when attendance drops below a course requirement, how to calculate your path back, and when to ask for help.",
+    "keyword": "attendance below required percentage what happens",
+    "category": "Policy & Planning",
+    "alt": "Student contacting an academic office after seeing attendance below a course requirement",
+    "answer": "The next step depends on your institution. You may need to contact a department, submit documentation, attend remaining classes, or follow an appeal process.",
+    "sections": [
+      {
+        "heading": "Do not guess the consequence",
+        "paragraphs": [
+          "Below-requirement outcomes can range from a warning to restricted assessment eligibility, but the actual rule belongs to your institution and course.",
+          "Check the handbook or official portal, then ask the relevant office what deadline, evidence, or correction process applies."
+        ]
+      },
+      {
+        "heading": "Bring clear numbers",
+        "paragraphs": [
+          "Write down classes held, attended, absent, target, and remaining schedule. A clear record helps you explain the situation and identify whether a data correction is needed.",
+          "Keep attending scheduled classes while you confirm the process unless an official instruction says otherwise."
+        ]
+      }
+    ],
+    "related": [
+      "attendance-shortage-what-to-do",
+      "reach-75-attendance",
+      "college-attendance-percentage-required"
+    ]
+  },
+  {
+    "slug": "weekly-attendance-routine",
+    "title": "How to Build a Simple Weekly Attendance Routine",
+    "description": "A five-minute weekly system for checking attendance, spotting risk early, and starting each class day prepared.",
+    "keyword": "weekly attendance routine for students",
+    "category": "Habits",
+    "alt": "Weekly student planner with attendance review checklist and class times",
+    "answer": "A useful weekly attendance routine has three moments: prepare the schedule, record classes, and review subject trends before the next week begins.",
+    "sections": [
+      {
+        "heading": "Prepare on the weekend",
+        "paragraphs": [
+          "Look over the week’s timetable, travel time, assessments, and any known conflicts. Put the classes that are hardest to reach at the top of your planning attention.",
+          "Pack materials and set realistic reminders; the goal is fewer last-minute decisions."
+        ]
+      },
+      {
+        "heading": "Close the loop after class",
+        "paragraphs": [
+          "Record present or absent status while it is still fresh. At the end of the week, check subject percentages and write one next action for anything close to target.",
+          "The routine should take minutes, not become another large assignment."
+        ]
+      }
+    ],
+    "related": [
+      "improve-class-attendance-without-burning-out",
+      "semester-attendance-tracker",
+      "attendance-goals-safe-target"
+    ]
+  },
+  {
+    "slug": "lab-tutorial-attendance-tracking",
+    "title": "Attendance Tracking for Lab Classes and Tutorials",
+    "description": "How to track labs and tutorials accurately when they have different hours, schedules, or attendance rules from lectures.",
+    "keyword": "lab attendance tracking",
+    "category": "Tracking",
+    "alt": "Laboratory notebook and tutorial timetable beside attendance records",
+    "answer": "Track labs and tutorials as their own course activity when they have different sessions, hours, or eligibility rules.",
+    "sections": [
+      {
+        "heading": "Record the activity that was actually held",
+        "paragraphs": [
+          "A lab may count by hours while a lecture counts by sessions. Record the unit your institution uses and keep the activity name specific enough to distinguish sections.",
+          "Include makeup sessions or cancelled periods according to the official record, not assumptions."
+        ]
+      },
+      {
+        "heading": "Check whether rules are separate",
+        "paragraphs": [
+          "Some programs require minimum attendance in both lecture and practical components. Others combine them. Read the course outline and ask early if the wording is unclear.",
+          "Separate records make it easier to spot a practical-session shortage before it surprises you."
+        ]
+      }
+    ],
+    "related": [
+      "track-attendance-by-subject",
+      "attendance-percentage-actually-works",
+      "attendance-below-requirement"
+    ]
+  },
+  {
+    "slug": "recover-bad-attendance-week",
+    "title": "How to Recover From a Bad Attendance Week",
+    "description": "A practical reset after missed classes: record what happened, calculate the gap, and choose the next small action.",
+    "keyword": "how to recover from bad attendance",
+    "category": "Recovery",
+    "alt": "Student resetting a weekly attendance plan after missed classes",
+    "answer": "Recover by recording the missed classes accurately, checking the current subject-level gap, and protecting the next scheduled classes you can realistically attend.",
+    "sections": [
+      {
+        "heading": "Start with an honest reset",
+        "paragraphs": [
+          "Do not erase or hide missed classes. Enter the actual record, then identify whether the issue was a one-time event or a repeatable barrier.",
+          "If a health, work, or access issue contributed, contact the appropriate support or academic office instead of relying only on self-discipline."
+        ]
+      },
+      {
+        "heading": "Choose the next controllable step",
+        "paragraphs": [
+          "Calculate how many future classes you need for your target, then focus on the next week rather than the entire semester at once.",
+          "Review the number again after the next few classes. Progress is easier to sustain when the plan is visible and specific."
+        ]
+      }
+    ],
+    "related": [
+      "attendance-shortage-what-to-do",
+      "reach-75-attendance",
+      "improve-class-attendance-without-burning-out"
+    ]
+  },
+  {
+    "slug": "attendance-goals-safe-target",
+    "title": "Attendance Goals: Choosing a Safe Target Above the Minimum",
+    "description": "Why aiming exactly at the minimum is fragile and how to choose a realistic attendance buffer for your semester.",
+    "keyword": "attendance goal above minimum",
+    "category": "Habits",
+    "alt": "Attendance goal gauge set above a minimum line on a student planner",
+    "answer": "A safe attendance target is the official minimum plus a realistic buffer that gives you room for ordinary disruptions.",
+    "sections": [
+      {
+        "heading": "Minimum is not the same as comfortable",
+        "paragraphs": [
+          "If your target is exactly at the minimum, one unexpected absence can create a shortage. A buffer gives you options when travel, illness, or schedule changes happen.",
+          "The right buffer depends on the number of classes remaining and your real week, not on a universal number."
+        ]
+      },
+      {
+        "heading": "Make the goal visible",
+        "paragraphs": [
+          "Set a target for each subject, review it weekly, and focus on the subjects closest to the risk line. A clear target is more helpful than a vague promise to attend more.",
+          "Confirm the official threshold and any approved absence rules before setting your plan."
+        ]
+      }
+    ],
+    "related": [
+      "college-attendance-percentage-required",
+      "weekly-attendance-routine",
+      "semester-attendance-tracker"
+    ]
+  },
+  {
+    "slug": "plan-absences-attendance",
+    "title": "How to Plan Absences Without Losing Attendance Eligibility",
+    "description": "A practical way to think through planned absences, remaining classes, and your institution’s attendance requirement.",
+    "keyword": "plan absences and maintain attendance",
+    "category": "Planning",
+    "alt": "Student comparing planned absence dates with remaining classes on a calendar",
+    "answer": "Before planning an absence, calculate its effect on the relevant subject and confirm that approved leave or special rules apply as expected.",
+    "sections": [
+      {
+        "heading": "Run the numbers before the date",
+        "paragraphs": [
+          "Use the subject’s current attended and held totals, then model the absence as one more class in the denominator. If the result is close to the minimum, the plan may leave no room for later disruption.",
+          "Remember that a calculator cannot decide whether an absence is approved or how your institution records it."
+        ]
+      },
+      {
+        "heading": "Make a backup plan",
+        "paragraphs": [
+          "Check notes, recordings, transport, and any required makeup work before the absence. If the event is unavoidable, communicate early and keep documentation where appropriate.",
+          "The best plan protects both attendance and your ability to catch up academically."
+        ]
+      }
+    ],
+    "related": [
+      "attendance-calculator-classes-can-miss",
+      "attendance-goals-safe-target",
+      "attendance-below-requirement"
+    ]
+  },
+  {
+    "slug": "attendance-tracking-mistakes",
+    "title": "Common Attendance-Tracking Mistakes Students Make",
+    "description": "Avoid the most common attendance-tracking errors, from mixing hours and sessions to forgetting subject-level rules.",
+    "keyword": "attendance tracking mistakes",
+    "category": "Tracking",
+    "alt": "Messy attendance notes being reorganized into a clear subject tracker",
+    "answer": "The most common mistakes are recording from memory, mixing units, using one overall average, and treating an online calculator as an official policy.",
+    "sections": [
+      {
+        "heading": "Errors that change the math",
+        "paragraphs": [
+          "Mixing class sessions with hours can produce a misleading percentage. So can counting cancelled classes as conducted or forgetting to update a corrected record.",
+          "Use one consistent unit per subject and keep the original date for each entry."
+        ]
+      },
+      {
+        "heading": "Errors that change the decision",
+        "paragraphs": [
+          "An overall average can hide a subject shortage. A percentage from a generic calculator cannot confirm exam eligibility. And a target copied from a friend may not apply to your course.",
+          "Keep your record clear, then verify policy questions with the official source."
+        ]
+      }
+    ],
+    "related": [
+      "attendance-percentage-actually-works",
+      "track-attendance-by-subject",
+      "college-attendance-percentage-required"
+    ]
+  },
+  {
+    "slug": "attendance-streaks-consistency",
+    "title": "How Attendance Streaks Help You Stay Consistent",
+    "description": "Use attendance streaks as a gentle feedback tool without turning one missed class into an all-or-nothing judgment.",
+    "keyword": "attendance streak tracker",
+    "category": "Habits",
+    "alt": "Five-day attendance streak marked across a colorful weekly calendar",
+    "answer": "A streak can make consistent attendance visible, but it should encourage the next class rather than punish you for one interruption.",
+    "sections": [
+      {
+        "heading": "Why visible progress helps",
+        "paragraphs": [
+          "A streak turns a repeated behavior into something you can see. That small signal can reduce the mental effort of deciding whether to attend each day.",
+          "Streaks work best when paired with the actual attendance percentage, because a streak alone does not show subject requirements."
+        ]
+      },
+      {
+        "heading": "Reset without giving up",
+        "paragraphs": [
+          "If you miss a class, record it accurately and restart from the next scheduled class. Look for the reason behind the interruption and adjust the routine if needed.",
+          "Consistency is the ability to return to the plan, not the absence of every imperfect week."
+        ]
+      }
+    ],
+    "related": [
+      "improve-class-attendance-without-burning-out",
+      "weekly-attendance-routine",
+      "recover-bad-attendance-week"
+    ]
+  },
+  {
+    "slug": "attendance-academic-performance",
+    "title": "Attendance vs. Academic Performance: What Students Should Know",
+    "description": "What research can and cannot tell us about class attendance and academic performance, plus practical ways to use attendance data.",
+    "keyword": "attendance and academic performance",
+    "category": "Study Skills",
+    "alt": "Student studying lecture notes with an attendance chart in the background",
+    "answer": "Research often finds an association between consistent attendance and academic performance, but attendance is not the only factor and association does not prove a single cause.",
+    "sections": [
+      {
+        "heading": "Attendance is one signal",
+        "paragraphs": [
+          "Showing up can increase exposure to explanations, practice, feedback, and peer discussion. But learning also depends on teaching quality, prior knowledge, health, workload, and access.",
+          "Use attendance data to notice when support may be needed, not to judge your worth or predict a guaranteed grade."
+        ]
+      },
+      {
+        "heading": "Turn the signal into action",
+        "paragraphs": [
+          "If a subject’s attendance is dropping, pair the record with a study plan: review missed material, ask a focused question, and plan the next class.",
+          "A small, regular check-in is more useful than waiting for end-of-term panic."
+        ]
+      }
+    ],
+    "related": [
+      "improve-class-attendance-without-burning-out",
+      "semester-attendance-tracker",
+      "weekly-attendance-routine"
+    ]
+  },
+  {
+    "slug": "complete-student-attendance-guide",
+    "title": "The Complete Student Guide to Attendance Tracking",
+    "description": "A practical guide to attendance formulas, subject tracking, recovery plans, safe targets, and weekly habits.",
+    "keyword": "student attendance tracking guide",
+    "category": "Guides",
+    "alt": "Complete student attendance toolkit with calendar, calculator, and subject cards",
+    "answer": "Good attendance tracking combines accurate records, subject-level percentages, a realistic target, and a short weekly review.",
+    "sections": [
+      {
+        "heading": "Start with accurate records",
+        "paragraphs": [
+          "Record each class or hour as close to the event as possible. Keep units consistent, separate subjects when rules differ, and note corrections or approved exceptions.",
+          "Then calculate the current percentage using attended divided by conducted totals."
+        ]
+      },
+      {
+        "heading": "Use the numbers to plan",
+        "paragraphs": [
+          "Model how many future classes you need to reach a target and how much room remains for absence. Treat the output as an estimate until your institution confirms its rules.",
+          "Review once a week, protect the next class, and ask for support early when a barrier is bigger than a reminder can solve."
+        ]
+      }
+    ],
+    "related": [
+      "calculate-attendance-percentage",
+      "semester-attendance-tracker",
+      "attendance-calculator-current-needed-can-miss"
+    ]
+  }
+]
