@@ -142,3 +142,10 @@ html,body{overflow-x:hidden}.page-hero{width:min(calc(100% - 48px),920px);margin
 .store-icon{display:grid;place-items:center;flex:0 0 26px;width:26px;height:26px;color:var(--white);font-size:22px;line-height:1}.play-icon{font-size:15px;color:#8be7bd}
 .store-button-copy{display:grid;gap:2px;min-width:0}.store-button-kicker{color:#b9b8ca;font-size:8px;line-height:1.1;letter-spacing:.02em}.store-button strong{font-size:13px;line-height:1.15;white-space:nowrap}.store-arrow{margin-left:auto;color:#a8a6ff;font-size:14px}
 @media(max-width:420px){.store-links{display:grid;grid-template-columns:1fr 1fr}.store-button{min-width:0;padding:9px 9px;gap:7px}.store-icon{flex-basis:22px;width:22px;height:22px}.store-button strong{font-size:11px}.store-arrow{display:none}}
+
+/* Keep the shared brand lockup compact: icon plus readable name. */
+.brand img{width:39px;height:39px;border-radius:12px;object-fit:contain}
+.brand span{display:inline;font-size:18px}
+.footer-brand img{width:29px;height:29px;border-radius:9px;object-fit:contain}
+.footer-brand span{display:inline}
+@media(max-width:420px){.brand img{width:34px;height:34px}.brand span{font-size:17px}.footer-brand img{width:27px;height:27px}}
