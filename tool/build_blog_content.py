@@ -40,7 +40,7 @@ def header(active: str, prefix: str = "") -> str:
 
 
 def footer(prefix: str = "") -> str:
-    return f'<footer class="site-footer"><div class="footer-brand"><img src="{prefix}assets/attendly_logo.webp" alt=""><span>Attendly</span></div><div class="footer-links"><a href="{prefix}./">Home</a><a href="{prefix}blog">Blog</a><a href="{prefix}faq">FAQ</a><a href="{prefix}support">Support</a><a href="{prefix}privacy-policy">Privacy</a><a href="{prefix}terms">Terms</a></div><div class="footer-links footer-more"><span>More from AppGenie:</span><a href="https://barbellfit.appgenie.in/">BarbellFit workout tracker</a><a href="https://paypilot.appgenie.in/">PayPilot expense tracker</a><a href="https://resume.appgenie.in/">AI resume builder</a><a href="https://appgenie.in/">AppGenie studio</a></div><div class="footer-copy">© <span data-year></span> Attendly</div></footer><script src="{prefix}script.js"></script>'
+    return f'<footer class="site-footer"><div class="footer-brand"><img src="{prefix}assets/attendly_logo.webp" alt=""><span>Attendly</span></div><div class="footer-links"><a href="/attendance-calculator">Attendance calculator</a><a href="{prefix}./">Home</a><a href="{prefix}blog">Blog</a><a href="{prefix}faq">FAQ</a><a href="{prefix}support">Support</a><a href="{prefix}privacy-policy">Privacy</a><a href="{prefix}terms">Terms</a></div><div class="footer-links footer-more"><span>More from AppGenie:</span><a href="https://barbellfit.appgenie.in/">BarbellFit workout tracker</a><a href="https://paypilot.appgenie.in/">PayPilot expense tracker</a><a href="https://resume.appgenie.in/">AI resume builder</a><a href="https://appgenie.in/">AppGenie studio</a></div><div class="footer-copy">© <span data-year></span> Attendly</div></footer><script src="{prefix}script.js"></script>'
 
 
 def page(title: str, description: str, canonical: str, body: str, schema: object, active: str, prefix: str = "") -> str:
@@ -83,7 +83,7 @@ def build_articles() -> None:
 
 
 def build_sitemap() -> None:
-    fixed = ["", "blog", "faq", "support", "privacy-policy", "terms", "deletion-request"]
+    fixed = ["", "attendance-calculator", "blog", "faq", "support", "privacy-policy", "terms", "deletion-request"]
     urls = fixed + [f"blog/{article['slug']}" for article in DATA]
     lines = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>", '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     lines.extend(f"  <url><loc>{BASE}/{url}</loc></url>" for url in urls)
