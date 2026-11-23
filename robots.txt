@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://attendly.app/sitemap.xml
+Sitemap: https://attendly.appgenie.in/sitemap.xml

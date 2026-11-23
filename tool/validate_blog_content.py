@@ -81,7 +81,7 @@ def main() -> int:
     else:
         sitemap_text = sitemap.read_text()
         for page in pages:
-            if page.name != "blog.html" and page.parent.name == "blog":
+            if page.name != "blog" and page.parent.name == "blog":
                 if page.stem not in sitemap_text:
                     failures.append(f"sitemap.xml missing {page.stem}")
 
