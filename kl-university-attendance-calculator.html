@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KL University Attendance Calculator: 85% Rule, Classes You Can Miss</title>
+  <meta name="description" content="Free KL University attendance calculator. Check your % against KL University’s 85% rule and see how many classes you can miss or must attend.">
+  <link rel="canonical" href="https://attendly.appgenie.in/kl-university-attendance-calculator">
+  <link rel="icon" type="image/png" href="assets/attendly-logo-transparent.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="KL University Attendance Calculator: 85% Rule, Classes You Can Miss">
+  <meta property="og:description" content="Free KL University attendance calculator. Check your % against KL University’s 85% rule and see how many classes you can miss or must attend.">
+  <meta property="og:url" content="https://attendly.appgenie.in/kl-university-attendance-calculator">
+  <meta property="og:site_name" content="Attendly">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "KL University Attendance Calculator", "url": "https://attendly.appgenie.in/kl-university-attendance-calculator", "applicationCategory": "EducationalApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Free KL University attendance calculator. Check your % against KL University’s 85% rule and see how many classes you can miss or must attend.", "publisher": {"@type": "Organization", "name": "AppGenie", "url": "https://appgenie.in/"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the minimum attendance at KL University?", "acceptedAnswer": {"@type": "Answer", "text": "KL University (KLEF) sets the minimum at 85% in each course for most programmes. Students between 75% and 85% may be condoned for medical or unavoidable reasons with documents. Below 75%, students are detained in that course with no relaxation."}}, {"@type": "Question", "name": "How many classes can I miss at KL University?", "acceptedAnswer": {"@type": "Answer", "text": "Enter classes attended and held above with a 85% target. The calculator uses m = floor(A ÷ 0.85 − H) to show how many more classes you can skip."}}, {"@type": "Question", "name": "How many classes do I need to attend to reach 85%?", "acceptedAnswer": {"@type": "Answer", "text": "It uses n = ceil((0.85 × H − A) ÷ 0.15). Attend that many classes in a row to get back to 85%."}}, {"@type": "Question", "name": "Is KL University’s attendance rule per subject or overall?", "acceptedAnswer": {"@type": "Answer", "text": "It applies to each course. Track each one separately so one weak subject doesn’t catch you out."}}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Attendly", "item": "https://attendly.appgenie.in/"}, {"@type": "ListItem", "position": 2, "name": "Attendance calculator", "item": "https://attendly.appgenie.in/attendance-calculator"}, {"@type": "ListItem", "position": 3, "name": "KL University", "item": "https://attendly.appgenie.in/kl-university-attendance-calculator"}]}</script>
+  <style>
+    .calc{width:min(calc(100% - 48px),920px);margin:0 auto 60px;padding:clamp(24px,5vw,48px);border:1px solid var(--rule);border-radius:24px;background:var(--white);box-shadow:var(--shadow)}
+    .calc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .calc label{display:block;color:var(--muted);font-size:12px;font-weight:500}
+    .calc input{width:100%;margin-top:8px;padding:14px 16px;border:1px solid var(--rule);border-radius:14px;background:var(--paper);color:var(--ink);font:600 20px 'Lexend',system-ui,sans-serif}
+    .calc input:focus{outline:3px solid #c9c7ff;border-color:var(--blue)}
+    .calc-result{margin-top:26px;display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center;padding:24px;border-radius:18px;background:var(--lilac)}
+    .calc-pct{font-family:'Fraunces',Georgia,serif;font-size:clamp(52px,9vw,78px);font-weight:600;line-height:1;letter-spacing:-.06em;color:var(--blue)}
+    .calc-pct.low{color:#e06f58}
+    .calc-msg{margin:0;font-size:16px;font-weight:500}
+    .calc-sub{margin:6px 0 0;color:var(--muted);font-size:13px}
+    .calc-error{color:#c0392b}
+    @media(max-width:640px){.calc-grid{grid-template-columns:1fr}.calc-result{grid-template-columns:1fr;gap:10px}.calc{width:min(calc(100% - 32px),920px)}}
+
+    .bands{width:100%;border-collapse:collapse;margin:14px 0 8px;font-size:15px}
+    .bands th,.bands td{padding:12px 14px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+    .bands th{font-weight:600;white-space:nowrap}
+    .college-links{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+    .college-links a{padding:8px 14px;border:1px solid var(--rule);border-radius:999px;text-decoration:none}
+  </style>
+<script async src="/clarity.js"></script></head>
+<body>
+  <header class="site-header"><a class="brand" href="./" aria-label="Attendly home"><img src="assets/attendly_logo.webp" alt=""><span>Attendly</span></a><nav class="nav" aria-label="Primary navigation"><a href="./">Home</a><a href="blog">Blog</a><a href="faq">FAQ</a><a href="support">Support</a><a class="nav-cta" href="download">Get the app <span aria-hidden="true">↗</span></a></nav></header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow"><a href="attendance-calculator">Attendance calculator</a> · KL University</p>
+      <h1>KL University attendance calculator</h1>
+      <p>Set to KL University’s 85% rule. Enter the classes you attended and the classes held so far to see your percentage, how many classes you can still miss, or how many you need to attend in a row.</p>
+    </section>
+
+    <section class="calc" aria-label="KL University attendance calculator">
+      <div class="calc-grid">
+        <label>Classes attended<input id="attended" type="number" inputmode="numeric" min="0" value="54"></label>
+        <label>Classes held<input id="held" type="number" inputmode="numeric" min="0" value="64"></label>
+        <label>Target %<input id="target" type="number" inputmode="decimal" min="1" max="100" value="85"></label>
+      </div>
+      <div class="calc-result" aria-live="polite">
+        <div id="pct" class="calc-pct">–</div>
+        <div><p id="msg" class="calc-msg"></p><p id="sub" class="calc-sub"></p></div>
+      </div>
+    </section>
+
+    <section class="document">
+      <h2>KL University attendance rule</h2>
+      <p>KL University (KLEF) sets the minimum at <strong>85% in each course</strong> for most programmes. Students between 75% and 85% may be condoned for medical or unavoidable reasons with documents. Below 75%, students are detained in that course with no relaxation.</p>
+      <table class="bands"><thead><tr><th>Your attendance</th><th>What happens</th></tr></thead><tbody><tr><th>85% or more</th><td>Meets the requirement.</td></tr><tr><th>75% to below 85%</th><td>Condonation possible for medical or unavoidable reasons, with supporting documents.</td></tr><tr><th>Below 75%</th><td>Detained in that course and cannot take its semester-end exam. No relaxation.</td></tr><tr><th>Law (BBA-LLB, LLB, LLM)</th><td>Minimum 70%, condonation 65–70%, detention below 65%.</td></tr></tbody></table>
+      <p class="calc-sub">Source: <a href="https://kluniversity.in/site/attendance.htm" rel="nofollow noopener" target="_blank">KLEF attendance requirement</a>. Rules can change between batches and programmes. Your department’s latest circular is final.</p>
+
+      <h2>Tips for KL University students</h2>
+      <ul><li>The calculator starts at 85% because that is KL’s actual target. Change it to 75% to see how far you are from detention.</li><li>Condonation isn’t automatic. Keep medical certificates and activity letters ready if you dip below 85%.</li><li>Law students should set the target to 70%.</li></ul>
+
+      <h2>How the calculation works</h2>
+      <p><strong>Attendance % = attended ÷ held × 100.</strong> To find classes you can miss: <strong>floor(A ÷ T − H)</strong>. To find classes you must attend: <strong>ceil((T × H − A) ÷ (1 − T))</strong>, where T is 0.85 for 85%. Read the <a href="attendance-calculator">full explanation</a>.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details class="faq" open><summary>What is the minimum attendance at KL University?</summary><p>KL University (KLEF) sets the minimum at 85% in each course for most programmes. Students between 75% and 85% may be condoned for medical or unavoidable reasons with documents. Below 75%, students are detained in that course with no relaxation.</p></details><details class="faq"><summary>How many classes can I miss at KL University?</summary><p>Enter classes attended and held above with a 85% target. The calculator uses m = floor(A ÷ 0.85 − H) to show how many more classes you can skip.</p></details><details class="faq"><summary>How many classes do I need to attend to reach 85%?</summary><p>It uses n = ceil((0.85 × H − A) ÷ 0.15). Attend that many classes in a row to get back to 85%.</p></details><details class="faq"><summary>Is KL University’s attendance rule per subject or overall?</summary><p>It applies to each course. Track each one separately so one weak subject doesn’t catch you out.</p></details>
+
+      <h2>Other college calculators</h2>
+      <div class="college-links"><a href="srm-attendance-calculator">SRM</a><a href="vit-attendance-calculator">VIT</a><a href="lpu-attendance-calculator">LPU</a><a href="jain-university-attendance-calculator">Jain University</a><a href="sastra-attendance-calculator">SASTRA</a><a href="attendance-calculator">Any college</a></div>
+
+      <h2>Stop doing the maths before every bunk</h2>
+      <p>Attendly tracks attendance per subject, shows your percentage after every class and tells you how many classes you can miss, with your college’s target built in. <a href="download">Download Attendly</a>.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-brand"><img src="assets/attendly_logo.webp" alt=""><span>Attendly</span></div><div class="footer-links"><a href="./">Home</a><a href="blog">Blog</a><a href="faq">FAQ</a><a href="support">Support</a><a href="privacy-policy">Privacy</a><a href="terms">Terms</a></div><div class="footer-links footer-more"><span>More from AppGenie:</span><a href="https://barbellfit.appgenie.in/">BarbellFit workout tracker</a><a href="https://paypilot.appgenie.in/">PayPilot expense tracker</a><a href="https://resume.appgenie.in/">AI resume builder</a><a href="https://appgenie.in/">AppGenie studio</a></div><div class="footer-copy">© <span data-year></span> Attendly</div></footer>
+  <script src="script.js"></script>
+  <script>
+    (function () {
+      var $ = function (id) { return document.getElementById(id); };
+      function update() {
+        var A = parseFloat($('attended').value), H = parseFloat($('held').value), T = parseFloat($('target').value) / 100;
+        var pctEl = $('pct'), msg = $('msg'), sub = $('sub');
+        msg.className = 'calc-msg';
+        if (!(H > 0) || !(A >= 0) || !(T > 0 && T <= 1)) { pctEl.textContent = '–'; msg.textContent = 'Enter classes held (more than 0) and a target between 1 and 100.'; sub.textContent = ''; return; }
+        if (A > H) { pctEl.textContent = '–'; msg.className += ' calc-error'; msg.textContent = 'Classes attended can’t be more than classes held.'; sub.textContent = ''; return; }
+        var pct = A / H * 100, tPct = Math.round(T * 1000) / 10;
+        pctEl.textContent = (Math.round(pct * 10) / 10) + '%';
+        pctEl.className = 'calc-pct' + (pct + 1e-9 < T * 100 ? ' low' : '');
+        if (pct + 1e-9 >= T * 100) {
+          var m = Math.floor(A / T - H + 1e-9);
+          msg.textContent = m > 0 ? 'You can miss ' + m + ' more class' + (m === 1 ? '' : 'es') + ' and stay at ' + tPct + '%.' : 'You’re exactly on target. Missing the next class drops you below ' + tPct + '%.';
+          sub.textContent = 'After that, every class you attend adds a little more room.';
+        } else if (T >= 1) {
+          msg.textContent = 'A 100% target can’t be recovered once a class is missed.';
+          sub.textContent = 'Try your institution’s actual minimum, such as 75%.';
+        } else {
+          var n = Math.ceil((T * H - A) / (1 - T) - 1e-9);
+          msg.textContent = 'Attend the next ' + n + ' class' + (n === 1 ? '' : 'es') + ' in a row to reach ' + tPct + '%.';
+          sub.textContent = 'That takes you to ' + (A + n) + ' of ' + (H + n) + ' classes.';
+        }
+      }
+      ['attended', 'held', 'target'].forEach(function (id) { $(id).addEventListener('input', update); });
+      update();
+    })();
+  </script>
+</body>
+</html>

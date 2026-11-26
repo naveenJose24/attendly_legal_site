@@ -33,6 +33,8 @@
     .calc-sub{margin:6px 0 0;color:var(--muted);font-size:13px}
     .calc-error{color:#c0392b}
     @media(max-width:640px){.calc-grid{grid-template-columns:1fr}.calc-result{grid-template-columns:1fr;gap:10px}.calc{width:min(calc(100% - 32px),920px)}}
+    .college-links{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+    .college-links a{padding:8px 14px;border:1px solid var(--rule);border-radius:999px;text-decoration:none}
   </style>
 <script async src="/clarity.js"></script></head>
 <body>
@@ -64,6 +66,10 @@
       <h3>Classes you need to attend</h3>
       <p>If you are below your target, attend <strong>n = ceil((T × H − A) ÷ (1 − T))</strong> classes in a row. Example: 40 of 60 attended → ceil((45 − 40) ÷ 0.25) = 20 classes.</p>
       <div class="callout">Rules vary. Some institutions count labs, tutorials or approved leave differently. Use this as a planning estimate and confirm the official rule for your course.</div>
+
+      <h2>Calculators for your college</h2>
+      <p>Pre-set to each college’s official rule, with condonation bands explained.</p>
+      <div class="college-links"><a href="srm-attendance-calculator">SRM</a><a href="vit-attendance-calculator">VIT</a><a href="kl-university-attendance-calculator">KL University</a><a href="lpu-attendance-calculator">LPU</a><a href="jain-university-attendance-calculator">Jain University</a><a href="sastra-attendance-calculator">SASTRA</a></div>
 
       <h2>Frequently asked questions</h2>
       <details class="faq" open><summary>How do I calculate my attendance percentage?</summary><p>Divide the classes you attended by the total classes held, then multiply by 100. For example, 45 attended out of 60 held is 75%.</p></details>
