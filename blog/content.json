@@ -25,7 +25,7 @@
     ],
     "related": [
       "attendance-calculator-classes-can-miss",
-      "track-attendance-by-subject",
+      "attendance-calculator-current-needed-can-miss",
       "attendance-percentage-actually-works"
     ]
   },
@@ -84,7 +84,7 @@
       }
     ],
     "related": [
-      "reach-75-attendance",
+      "plan-absences-attendance",
       "attendance-below-requirement",
       "recover-bad-attendance-week"
     ]
@@ -144,7 +144,7 @@
       }
     ],
     "related": [
-      "weekly-attendance-routine",
+      "attendance-academic-performance",
       "attendance-streaks-consistency",
       "recover-bad-attendance-week"
     ]
@@ -174,7 +174,7 @@
       }
     ],
     "related": [
-      "calculate-attendance-percentage",
+      "lab-tutorial-attendance-tracking",
       "semester-attendance-tracker",
       "attendance-tracking-mistakes"
     ]
@@ -295,7 +295,7 @@
     ],
     "related": [
       "track-attendance-by-subject",
-      "weekly-attendance-routine",
+      "lab-tutorial-attendance-tracking",
       "attendance-goals-safe-target"
     ]
   },
@@ -355,7 +355,7 @@
     ],
     "related": [
       "improve-class-attendance-without-burning-out",
-      "semester-attendance-tracker",
+      "attendance-academic-performance",
       "attendance-goals-safe-target"
     ]
   },
@@ -415,7 +415,7 @@
     ],
     "related": [
       "attendance-shortage-what-to-do",
-      "reach-75-attendance",
+      "attendance-streaks-consistency",
       "improve-class-attendance-without-burning-out"
     ]
   },
@@ -446,7 +446,7 @@
     "related": [
       "college-attendance-percentage-required",
       "weekly-attendance-routine",
-      "semester-attendance-tracker"
+      "attendance-streaks-consistency"
     ]
   },
   {

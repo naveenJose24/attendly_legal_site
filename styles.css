@@ -149,3 +149,5 @@ html,body{overflow-x:hidden}.page-hero{width:min(calc(100% - 48px),920px);margin
 .footer-brand img{width:29px;height:29px;border-radius:9px;object-fit:contain}
 .footer-brand span{display:inline}
 @media(max-width:420px){.brand img{width:34px;height:34px}.brand span{font-size:17px}.footer-brand img{width:27px;height:27px}}
+.article-body .start-here{margin:42px 0 24px}.article-body .start-here a{color:var(--blue);font-weight:600}
+.guide-list{margin:18px 0 0;padding:0;list-style:none;border-top:1px solid var(--rule)}.guide-list li{border-bottom:1px solid var(--rule)}.guide-list a{display:block;padding:12px 0;color:var(--ink);font-size:14px;font-weight:500}.guide-list a:hover{color:var(--blue)}

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://attendly.appgenie.in/</loc></url>
-  <url><loc>https://attendly.appgenie.in/download</loc></url>
+  <url><loc>https://attendly.appgenie.in/attendance-calculator</loc></url>
+  <url><loc>https://attendly.appgenie.in/srm-attendance-calculator</loc></url>
+  <url><loc>https://attendly.appgenie.in/vit-attendance-calculator</loc></url>
+  <url><loc>https://attendly.appgenie.in/kl-university-attendance-calculator</loc></url>
+  <url><loc>https://attendly.appgenie.in/lpu-attendance-calculator</loc></url>
+  <url><loc>https://attendly.appgenie.in/jain-university-attendance-calculator</loc></url>
+  <url><loc>https://attendly.appgenie.in/sastra-attendance-calculator</loc></url>
   <url><loc>https://attendly.appgenie.in/blog</loc></url>
   <url><loc>https://attendly.appgenie.in/faq</loc></url>
   <url><loc>https://attendly.appgenie.in/support</loc></url>
@@ -28,11 +34,4 @@
   <url><loc>https://attendly.appgenie.in/blog/attendance-streaks-consistency</loc></url>
   <url><loc>https://attendly.appgenie.in/blog/attendance-academic-performance</loc></url>
   <url><loc>https://attendly.appgenie.in/blog/complete-student-attendance-guide</loc></url>
-  <url><loc>https://attendly.appgenie.in/attendance-calculator</loc></url>
-  <url><loc>https://attendly.appgenie.in/srm-attendance-calculator</loc></url>
-  <url><loc>https://attendly.appgenie.in/vit-attendance-calculator</loc></url>
-  <url><loc>https://attendly.appgenie.in/kl-university-attendance-calculator</loc></url>
-  <url><loc>https://attendly.appgenie.in/lpu-attendance-calculator</loc></url>
-  <url><loc>https://attendly.appgenie.in/jain-university-attendance-calculator</loc></url>
-  <url><loc>https://attendly.appgenie.in/sastra-attendance-calculator</loc></url>
 </urlset>
